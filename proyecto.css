@@ -99,7 +99,6 @@ body {
     font-weight: bold;
     padding: 17px;
     transition: 0.25s;
-    
 }
 
 .profile__i:hover {
@@ -170,14 +169,10 @@ body {
     text-shadow: 2px 2px rgba(243, 9, 9, 0.678);
 }
 
-.skills ul {
-    margin: 25px;
-    padding: 0;
-}
   
 .skills li {
     display: inline-block;
-    margin: 0 30px;
+    margin: 25px 30px;
     font-size: 1.4em;
 }
 
@@ -272,7 +267,7 @@ body {
 }
 
 .form-input {
-    min-width: 400px;
+    min-width: 380px;
     margin: 10px;
     padding: 4px;
     background-image: linear-gradient(#228,#48e);
@@ -299,3 +294,155 @@ body {
     background-image: linear-gradient(#248,#039);
     box-shadow: 2px 2px 10px #09b;
 }
+
+.nav__responsive__ul {
+    display: none;
+}
+
+.nav__responsive-button {
+    position: relative;
+    padding: 3px;
+    margin-top: 1000px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 430px) {
+        
+    .profile-container {
+        padding-top: 150px;
+        height: 650px;
+        background-image: url(https://as2.ftcdn.net/v2/jpg/01/97/80/79/1000_F_197807935_WpJu4eF8hxfI7HCsaAmw1a25prUKZsav.jpg);
+        background-size: contain;
+        background-repeat: repeat;
+        filter: contrast(1.2);
+    }
+
+    .nav__responsive-button {
+        float: right;
+        padding: 10px;
+        margin: 1px;
+    }
+    
+
+    .nav__ul {
+        display: none;
+    }
+
+    .nav__responsive__ul {
+        display: inline-block;
+        height: 160px;
+        width: 100%;
+        background-color: rgba(68, 136, 238, 0.733);
+        font-size: 0.5em;
+    }
+
+    .nav {
+        height: 40px;
+        width: 100%;
+    }
+
+    #boton-responsive {
+        background-color: transparent;
+        border: transparent;
+        transition-timing-function: 2s;
+    }
+
+    .nav__li-container {
+        width: 100%;
+        height: 200px;
+        display: inline;    
+
+    }
+
+    .nav__responsive__li i {
+        padding: 12px;
+        margin-right: 3px;
+        color: #F60;
+
+    }
+
+    .nav__responsive__li a {
+    color: #f60;
+    text-decoration: none;
+    }
+
+
+    .datos {
+        width: 420px;
+        height: 220px;
+    }
+
+    .boton-profile {
+        margin: 10px 20px;
+        background-image: radial-gradient(#f88 1%, #fa6 30%, #F60 60%);
+        border: transparent;
+        border-radius: 100%;
+    }
+    
+    .profile__i {
+        color:#f51;
+        font-size: 1.8em;
+        font-weight: bold;
+        padding: 7px;
+        transition: 0.25s;
+        
+    }
+
+    .profile__details {
+        margin-top: 20px;
+    }
+
+    .about-me h1 {
+        font-size: 1.8em;
+    }
+    
+    .about-me h2 {
+
+        font-size: 1.8em;
+        text-shadow: #f40 2px 2px;
+    }
+    
+    .about-me h3 {
+        color: #f40;
+        text-shadow: 1px 1px rgba(243, 9, 9, 0.678);
+        font-size: 1.5em;
+    
+    }
+    .skills h2 {
+        font-size: 1.8em;
+        margin: 30px;
+    }
+    .experiencia h2 {
+        font-size: 1.75em;
+    }
+
+    .estudios h3 {
+        font-size: 2.4em;
+    }
+    #contacto {
+        display: block;
+        align-items: center;
+    }
+
+    .contacto-container h2 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .form {
+        transform: translateX(-80px);
+        min-width: 300px;
+        margin: 0;
+        margin-top: 45px;
+    }
+
+    .form-input {
+    max-width: 300px;
+    }
+}
+
