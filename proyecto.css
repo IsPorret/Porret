@@ -1,0 +1,301 @@
+* {
+    font-family: 'Sen', sans-serif;
+	font-weight: 100;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: #0ab;
+    background: radial-gradient(#bbb, #fab, #09b);
+}
+
+.nav {
+    background-color: #138;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav__li {
+    display: inline-block;
+    padding-top: 12px;
+    color: #fa6;   
+    font-size: 1.5em; 
+}
+
+.nav__li:hover {
+    color: #f60;
+
+}
+
+.nav__li:hover a {
+    color: #f60;
+  
+}
+
+.nav__li a {
+    color: #fa6;
+    text-decoration: none;
+    margin-right: 35px;
+    transition: 1.2s; 
+}
+
+
+
+.nav__li i {
+    padding: 12px;
+    text-align: right;
+    margin-right: 3px;
+    transition: 1.2s;
+}
+
+.profile-container {
+    background-color: #248;
+    padding-top: 180px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #006;
+    color: #fa6;
+    text-align: center;
+    height: 800px;
+    background: url(https://oecd-opsi.org/wp-content/uploads/2020/10/Cracking-the-code.jpg) no-repeat;
+    background-size: cover;
+}
+
+.img-container { 
+    display: inline-block;
+    border-radius: 50%;
+    scale: 1.8;
+    box-shadow: 0 0 10px #48e;
+    
+}
+
+#foto{
+    border-radius: 50%;
+    /* border: 5px solid rgba(96, 12, 230, 0.13); */
+    box-shadow: 0 0 10px rgba(96, 12, 230, 0.13);
+}
+
+.datos {
+    transform: translateY(120px);
+    background-color: rgba(0, 0, 102, 0.596);
+    height: 280px;
+    width: 580px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.boton-profile {
+    margin: 0px 20px;
+    background-image: radial-gradient(#f88 1%, #fa6 30%, #F60 60%);
+    border: transparent;
+    border-radius: 100%;
+}
+
+.profile__i {
+    color:#f51;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding: 17px;
+    transition: 0.25s;
+    
+}
+
+.profile__i:hover {
+    color: #f40;    
+}
+
+.profile-info {
+    padding-top: 100px;
+}
+
+.profile__details {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.35em;
+    margin-top: 50px;
+    text-shadow: 1px 1px  #f40;
+}
+
+.about-me {
+    margin: 5px;
+    font-size: 1.2em;
+    background-image: linear-gradient(#006 10%, #228 80%);
+    padding: 80px;
+    color: #d84;
+    text-shadow: 0px 0px 4px #f40;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px #006;
+}
+
+.about-me h1 {
+    color:#f60;
+    color: rgba(102, 0, 31, 0.678);
+    text-align: center;
+    font-size: 3.5em;
+    text-shadow: #f40 2px 2px;
+    cursor:none ;
+}
+
+.about-me h2 {
+    color: rgba(102, 0, 31, 0.678);
+    text-align: center;
+    font-size: 2.8em;
+    text-shadow: #f40 2px 2px;
+}
+
+.about-me h3 {
+    color: #f40;
+    text-shadow: 1px 1px rgba(243, 9, 9, 0.678);
+    font-size: 1.5em;
+
+}
+
+.skills {
+    background-image: linear-gradient(#006 10%, #228 80%);
+    color: #d84;
+    text-shadow: 0px 0px 4px #f40;
+    padding: 50px 0;
+    text-align: center;
+    margin: 5px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px #006;
+}
+  
+.skills h2 {
+    font-size: 46px;
+    margin-bottom: 50px;
+    color: #f40;
+    text-shadow: 2px 2px rgba(243, 9, 9, 0.678);
+}
+
+.skills ul {
+    margin: 25px;
+    padding: 0;
+}
+  
+.skills li {
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 1.4em;
+}
+
+#experiencia-laboral {
+    margin: 5px;
+    background-image: linear-gradient(#006 10%, #117 80%);
+    color: #d84;
+    text-shadow: 0px 0px 4px #f40;
+    padding: 80px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px #006;
+    font-size: 1.4  em;
+}
+
+.experiencia h2 {
+    color: #f40;
+    text-shadow: 2px 2px rgba(243, 9, 9, 0.678);
+    text-align: center;
+    font-size: 50px;
+}
+
+.fecha-de-inicio-g {
+    display: inline;
+    color:#f71;
+    margin-left: 20px;
+}
+
+.fecha-de-inicio {
+    color:#f71;
+    margin-left: 20px;
+}
+
+.empresa-laboral {
+    display: inline;
+    color: #f71;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.cargo-laboral {
+    color: #f71;
+    font-size: 1.1em;
+}
+
+.tareas-laborales {
+    font-size: 0.9em;
+    color: #fa6;
+}
+
+.estudios {
+    margin: 5px;
+    padding: 120px;
+    background-image: linear-gradient(#006 10%, #228 80%);
+    box-shadow: 3px 3px 3px #006;
+    border-radius: 50px;
+    color: #d84;
+    text-shadow: 0px 0px 4px #f40;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px #006;
+}
+
+.estudios h3 {
+    color: #f40;
+    text-shadow: 1px 1px rgba(243, 9, 9, 0.678);
+    font-size: 3.5em;
+}
+
+
+
+
+#contacto {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    border-radius: 50px;
+    padding: 80px;  
+    background-image: linear-gradient(#006 10%, #228 80%);
+}
+
+.contacto-container h2 {
+    color: #f40;
+    text-shadow: 1px 1px rgba(243, 9, 9, 0.678);
+    font-size: 3.5em;
+}
+
+
+.form {
+    transform: translateX(100px);
+    margin-right: 120px;
+    flex: 1;
+}
+
+.form-input {
+    min-width: 400px;
+    margin: 10px;
+    padding: 4px;
+    background-image: linear-gradient(#228,#48e);
+    border: none;
+    text-shadow: 0px 0px 4px #f40;
+}
+
+.form textarea {
+    min-height: 100px;
+    resize: none;
+    overflow: hidden;
+}
+
+.form-img {
+    flex: 2;
+}
+
+#img-formulario {
+    width: 300px;
+    opacity: 0.7;
+}
+
+#form-submit:hover {
+    background-image: linear-gradient(#248,#039);
+    box-shadow: 2px 2px 10px #09b;
+}
