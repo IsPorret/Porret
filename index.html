@@ -18,7 +18,7 @@
         <nav class="nav">   
             <ul class="nav__ul">
                 <li class="nav__li"><i class="fa-solid fa-house"></i><a href="#inicio">Inicio</a></li>
-                <li class="nav__li"><i class=" fa-solid fa-user"></i><a href="#sobre Mí">Sobre mí</a></li>
+                <li class="nav__li"><i class=" fa-solid fa-user"></i><a href="#sobre-mi">Sobre mí</a></li>
                 <li class="nav__li"><i class="fa-solid fa-business-time"></i><a href="#experiencia-laboral">Experiencia Laboral</a></li>
                 <li class="nav__li"><i class="fa-solid fa-graduation-cap"></i><a href="#estudios">Formación</a></li>
                 <li class="nav__li"><i class=" fa-solid fa-address-card"></i><a href="#contacto">Contacto</a></li>
@@ -49,14 +49,17 @@
             </div>
         </div>
     </div>
-    <div class="cv-container" id="sobre Mí">
-        <div class="about-me"  ><h1>Agustín Berretta Invernizzi</h1><br>
-        <h2>Desarrollador web</h2><br><hr><br>
-        <h3>Resumen profesional</h3><br><br>
-        <p>Soy un desarrollador web con experiencia en el desarrollo de aplicaciones web y móviles. Apasionado por la tecnología y siempre buscando aprender cosas nuevas. <br>
-        He trabajado con tecnologías como HTML, CSS, JavaScript, React y Node.js. Me gusta trabajar en equipo y contribuir con ideas innovadoras para el éxito de los proyectos.</p> <br>
+    <div class="sobre-mi"  id="sobre-mi">
+        <div class="about-me">
+            <h1>Agustín Berretta Invernizzi</h1><br>
+            <h2>Desarrollador web</h2><br><hr><br>
+            <h3>Resumen profesional</h3><br><br>
+            <p>Soy un desarrollador web con experiencia en el desarrollo de aplicaciones web y móviles. Apasionado por la tecnología y siempre buscando aprender cosas nuevas. <br>
+            He trabajado con tecnologías como HTML, CSS, JavaScript, React y Node.js. Me gusta trabajar en equipo y contribuir con ideas innovadoras para el éxito de los proyectos.</p> <br>
+        </div>
     </div>
-    <div class="skills">
+    <div class="skills-container">
+        <div class="skills">
             <h2>Habilidades Técnicas</h2>
             <ul class="skills__li">
               <li>HTML</li>
@@ -74,103 +77,111 @@
               <li>Inglés - Avanzado</li>
               <li>Portugués - Intermedio</li>
             </ul>
+        </div>
     </div>
-    <div class="experiencia" id="experiencia-laboral">
-        <h2>Experiencia laboral</h2><br><br>
-        <h3 class="empresa-laboral">Letra Viva Libros</h3>
-        <h3 class="fecha-de-inicio-g">10/2017 - presente</h3>
-        <h4 class="cargo-laboral"><b>Gerente comercial</b></h4>
-        <h4 class="fecha-de-inicio">10/2021 - presente</h4>
-        <ul class="tareas-laborales">
+    <div class="experiencia-container">
+        <div class="experiencia" id="experiencia-laboral">
+            <h2>Experiencia laboral</h2><br><br>
+            <div class="letra-viva">
+            <h3>Letra Viva Libros</h3>
+            <h3>10/2017 - presente</h3>
+            <h4><b>Gerente comercial</b></h4>
+            <h4>10/2021 - presente</h4>
+            <ul class="tareas-laborales">
             <li>Planificación de objetivos</li>
             <li>Proyección de ventas</li>
             <li>Coordinación y supervisión del equipo de trabajo</li>
-        </ul>
+            </ul>
+            <h4><b>Jefe de cuentas corrientes</b></h4>
+            <h4 >10/2018 - presente</h4>
+            <ul class="tareas-laborales">
+                <li>Supervisión y gestión de cobranzas</li>
+                <li>Seguimiento de consignaciones</li>
+                <li>Apertura de cuentas</li>
+                <li>Control de saldos deudores</li>
+                <li>Facturación</li>
+            </ul>
+            <h4><b>Encargado de logística</b></h4>
+            <h4>06/2018 - presente</h4>
+            <ul class="tareas-laborales">
+                <li>Definición e implementación de los planes de acción relacionados con la logística</li>
+                <li>Atención al cliente</li>
+                <li>Gestión del lanzamiento de nuevos productos</li>
+                <li>Selección de proveedores</li>
+                <li>Control de stock</li>
+                <li>Gestion y monitoreo de la distribución y el transporte</li>
+            </ul></div>
+            <div class="burger-king">
+            <h3>Fast Food SA (Burger King)</h3>
+            <h3>01/2011 - 02/2017</h3>
+            <h4><b>Sub-gerente</b></h4>
+            <h4>03/2014 - 02/2017</h4>
+            <ul class="tareas-laborales">
+                <li>Garantizar el cumplimiento de las normativas sanitarias y de seguridad</li>
+                <li>Control de costos</li>
+                <li>Evaluación de rendimiento del personal</li>
+                <li>Confección de informes sobre ingresos y egresos gastos</li>
+                <li>Proyección de ventas y planificón de objetivos</li>
+                <li>Entrevistas a nuevos aspirantes a empleados</li>
+                <li>Arqueo de cajas</li>
+                <li>Pedidos a proveedores</li>
+            </ul>
         
-        <h4 class="cargo-laboral"><b>Jefe de cuentas corrientes</b></h4>
-        <h4 class="fecha-de-inicio">10/2018 - presente</h4>
-        <ul class="tareas-laborales">
-            <li>Supervisión y gestión de cobranzas</li>
-            <li>Seguimiento de consignaciones</li>
-            <li>Apertura de cuentas</li>
-            <li>Control de saldos deudores</li>
-            <li>Facturación</li>
-        </ul>
+            <h4 class="cargo-laboral"><b>Lider de entrenamiento</b></h4>
+            <h4 class="fecha-de-inicio">06/2011 - 03/2014</h4>
+            <ul class="tareas-laborales">
+                <li>Capacitación a nuevos empleados</li>
+                <li>Evaluación y seguimiento del equipo de trabajo</li>
+                <li>Encargado del area del delivery</li>
+            </ul> 
         
-        <h4 class="cargo-laboral"><b>Encargado de logística</b></h4>
-        <h4 class="fecha-de-inicio">06/2018 - presente</h4>
-        <ul class="tareas-laborales">
-            <li>Definición e implementación de los planes de acción relacionados con la logística</li>
-            <li>Atención al cliente</li>
-            <li>Gestión del lanzamiento de nuevos productos</li>
-            <li>Selección de proveedores</li>
-            <li>Control de stock</li>
-            <li>Gestion y monitoreo de la distribución y el transporte</li>
-        </ul><hr>
-        
-        <h3 class="empresa-laboral">Fast Food SA (Burger King)</h3>
-        <h3 class="fecha-de-inicio-g">01/2011 - 02/2017</h3>
-        <h4 class="cargo-laboral"><b>Sub-gerente</b></h4>
-        <h4 class="fecha-de-inicio">03/2014 - 02/2017</h4>
-        <ul class="tareas-laborales">
-            <li>Garantizar el cumplimiento de las normativas sanitarias y de seguridad</li>
-            <li>Control de costos</li>
-            <li>Evaluación de rendimiento del personal</li>
-            <li>Confección de informes sobre ingresos y egresos gastos</li>
-            <li>Proyección de ventas y planificón de objetivos</li>
-            <li>Entrevistas a nuevos aspirantes a empleados</li>
-            <li>Arqueo de cajas</li>
-            <li>Pedidos a proveedores</li>
-        </ul>
-        
-        <h4 class="cargo-laboral"><b>Lider de entrenamiento</b></h4>
-        <h4 class="fecha-de-inicio">06/2011 - 03/2014</h4>
-        <ul class="tareas-laborales">
-            <li>Capacitación a nuevos empleados</li>
-            <li>Evaluación y seguimiento del equipo de trabajo</li>
-            <li>Encargado del area del delivery</li>
-        </ul> 
-        
-        <h4 class="cargo-laboral"><b>Crew</b></h4>
-        <h4 class="fecha-de-inicio">01/2011 - 06/2011</h4>
-        <ul class="tareas-laborales">
-            <li>Atención al cliente y manejo de caja</li>
-            <li>Preparación de productos</li>
-            <li>Tareas de limpieza</li>
-            <li>Envío de deliverys</li>
-            <li>Descarga de mercadería e insumos</li>
-        </ul>
-    </div>   
+            <h4 class="cargo-laboral"><b>Crew</b></h4>
+            <h4 class="fecha-de-inicio">01/2011 - 06/2011</h4>
+            <ul class="tareas-laborales">
+                <li>Atención al cliente y manejo de caja</li>
+                <li>Preparación de productos</li>
+                <li>Tareas de limpieza</li>
+                <li>Envío de deliverys</li>
+                <li>Descarga de mercadería e insumos</li>
+            </ul>
+            </div>
+        </div>   
     </div>
+    <div class="estudios-container">
     <div class="estudios" id="estudios">
         <h3>Estudios</h3><br><hr>
-        <h4 class="estudios__section">Curso Ticmas - Argentina programa 4.0</h4>
-        <p class="fecha-de-inicio">01/2023 - presente</p><br><br>
-        <h4 class="estudios__section">Licenciatura en psicología - UBA</h4>
-        <p class="fecha-de-inicio">03/2018 - 11/2022</p><br><br>
-        <h4 class="estudios__section">Ingeniería en sonido - UNQUI</h4>
-        <p class="fecha-de-inicio">08/2014 - 06/2016</p><br><br>
-        <h4 class="estudios__section">Colegio Nacional de Buenos Aires</h4>
-        <p class="fecha-de-inicio">03/2006 - 11/2010</p> <br><br> 
+        <h4 class=>Curso Ticmas - Argentina programa 4.0</h4>
+        <p >01/2023 - presente</p><br><br>
+        <h4 >Licenciatura en psicología - UBA</h4>
+        <p >03/2018 - 11/2022</p><br><br>
+        <h4>Ingeniería en sonido - UNQUI</h4>
+        <p >08/2014 - 06/2016</p><br><br>
+        <h4>Colegio Nacional de Buenos Aires</h4>
+        <p >03/2006 - 11/2010</p> <br><br> 
+    </div>
     </div>
     <div class="contacto-container" id="contacto">
-        <h2>Contacto</h2>
-        <form class="form" method="post">
-            <div>
-                <input type="email" class="form-input" placeholder="Email">
-            </div>
-            <div>
-                <input type="text" class="form-input" placeholder="Asunto">
-            </div>
-            <div>
-                <textarea class="form-input" placeholder="Escriba su mensaje"></textarea>
-            </div>
-            <button type="submit" class="form-input" id="form-submit">Enviar</button>
-        </form>
-        <div class="form-img">
+        <div class="contacto">
+            <h2>Contacto</h2>
+            <div class="formulario-completo">
+            <form class="form" method="post">
+                <div>
+                    <input type="email" class="form-input" placeholder="Email">
+                </div>
+                <div>
+                    <input type="text" class="form-input" placeholder="Asunto">
+                </div>
+                <div>
+                    <textarea class="form-input" placeholder="Escriba su mensaje"></textarea>
+                </div>
+                    <button type="submit" class="form-input" id="form-submit">Enviar</button>
+            </form>
+            <div class="form-img">
                 <img src="https://www.pngplay.com/wp-content/uploads/6/Email-Icon-Transparent-Background.png" id="img-formulario">
-        </div>
-     </div>
+            </div>
+            </div>
+        </div>        
+    </div>
     <script src="proyecto.js"></script>
 </body>
 </html>
