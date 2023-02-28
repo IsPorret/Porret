@@ -50,7 +50,7 @@ body {
 
 .profile-container {
     background-color: #248;
-    padding-top: 180px;
+    padding: 180px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px #006;
     color: #fa6;
@@ -62,20 +62,20 @@ body {
 
 .img-container { 
     display: inline-block;
-    border-radius: 50%;
-    scale: 1.8;
-    box-shadow: 0 0 10px #48e;
-    
+    border-radius: 100%;
+    background-image:linear-gradient(rgba(0, 0, 102, 0.514) 10%, rgba(34, 34, 136, 0.479) 80%);
+    box-shadow: 2px 10px 24px #228;
 }
 
-#foto{
-    border-radius: 50%;
-    /* border: 5px solid rgba(96, 12, 230, 0.13); */
-    box-shadow: 0 0 10px rgba(96, 12, 230, 0.13);
+#foto {
+    border-radius: 100%;
+    object-fit: contain;
+    height: 200px;
+    width: 200px;
 }
 
 .datos {
-    transform: translateY(120px);
+    transform: translateY(100px);
     background-color: rgba(0, 0, 102, 0.596);
     height: 280px;
     width: 580px;
@@ -249,7 +249,7 @@ body {
     margin-bottom: 120px;
     color: rgba(102, 0, 31, 0.678);
     text-shadow: #f40 2px 2px, 1px 1px 4px #48e;
-    font-size: 4em;
+    font-size: 3.5em;
     background-image:linear-gradient(rgba(0, 0, 102, 0.774) 10%, rgba(41, 127, 197, 0.473) 80%);
     padding: 50px;
     border-radius: 50px;
@@ -262,7 +262,6 @@ body {
     font-size: 3.0em;
     color: rgba(102, 0, 31, 0.678);
     text-shadow: #f40 2px 2px, 1px 1px 4px #48e;
-    margin-bottom: 80px;
 }
 
 .letra-viva {
@@ -423,14 +422,19 @@ body {
 
 
 @media only screen and (max-width: 430px) {
-        
+      
+    body {
+        width: 98%;
+    }
+
     .profile-container {
-        padding-top: 250px;
+        padding: 5px;
+        padding-top: 200px;
         height: 750px;
-        background-image: url(https://as2.ftcdn.net/v2/jpg/01/97/80/79/1000_F_197807935_WpJu4eF8hxfI7HCsaAmw1a25prUKZsav.jpg);
         background-size: contain;
         background-repeat: repeat;
-        filter: saturate(1.3)
+
+        font-size: 0.8em;
     }
 
     .nav__responsive-button {
@@ -447,9 +451,10 @@ body {
     .nav__responsive__ul {
         display: inline-block;
         height: 170px;
-        width: 100%;
+        width: 50%;
         background-color: rgba(68, 136, 238, 0.733);
         font-size: 0.5em;
+        border-radius: 5px;
     }
 
     .nav {
@@ -482,8 +487,10 @@ body {
 
 
     .datos {
-        width: 95%;
-        height: 40%;
+        padding: 10px;
+        margin: auto;
+        width: 350px;
+        height: 25%;
     }
 
     .boton-profile {
@@ -503,45 +510,78 @@ body {
 
     .profile__details {
         margin-top: 25px;
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
-    .about-me h1 {
-        font-size: 1.8em;
+    .sobre-mi {
+        padding: 10px;
+        background-size: contain;
+        background-repeat: repeat;
     }
-    
-    .about-me h2 {
+    .about-me {
+        padding: 15px;
+        font-size: 0.8em;
+    }
+    .skills-container {
+        padding: 15px;
+        background-size: contain;
+        background-repeat: repeat;
 
-        font-size: 1.8em;
-        text-shadow: #f40 2px 2px;
     }
-    
-    .about-me h3 {
-        color: #f40;
-        text-shadow: 1px 1px rgba(243, 9, 9, 0.678);
-        font-size: 1.5em;
-    
+    .skills {
+        font-size: 0.8em;
+        padding: 10px;
     }
+
     .skills h2 {
-        font-size: 1.8em;
-        margin: 30px;
-    }
-    .experiencia h2 {
-        font-size: 1.75em;
+        font-size: 3em
     }
 
-    .estudios h3 {
-        font-size: 2.4em;
+    .skills__li {
+        display: inline-block;
+        margin: -25PX -30px;
+        font-size: .4em;
+        padding: 10px;
     }
-    #contacto {
-        display: block;
-        font-size: 0.8em;;
-            
+
+    .experiencia-container {
+        padding: 15px;
+        background-size: contain;
+        background-repeat: repeat;
+        font-size: 0.8em;
     }
+
+    .experiencia {
+        padding: 5px;
+    }
+
+    .experiencia h2 {
+        margin-bottom: 15px;
+    }
+
+    .experiencia h3 {
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+
+
+
+    .estudios-container {
+        padding: 10px;
+        background-size: contain;
+        background-repeat: repeat;
+        font-size: 0.8em;
+    }
+
+    .contacto-container {
+        padding: 15px;
+    }
+
+
 
      .form {    
         margin-top: 45px;
-        transform: scale(75%);   ;
+        transform: scale(75%);   
         position: absolute;
         left: 0;
     }
@@ -549,7 +589,7 @@ body {
 
 
     .form-img {
-        scale: 0.8;
+        scale: 0.6;
         margin-top: 320px;
     }
 
