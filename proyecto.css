@@ -135,7 +135,7 @@ body {
     padding: 80px;
     color: #d84;
     text-shadow: 2px 2px  #000, 10px 10px 8px#000;
-    background-image:linear-gradient(rgba(0, 0, 102, 0.514) 10%, rgba(34, 34, 136, 0.479) 80%);
+    background-image:linear-gradient(to bottom right, rgba(0, 0, 102, 0.514) 10%, rgba(34, 34, 136, 0.479) 80%);
     border-radius: 50px;
     box-shadow: 0px 0px 10px #48e;
 }
@@ -179,7 +179,7 @@ body {
 }
 
 .skills {
-    background-image:linear-gradient(rgba(0, 0, 102, 0.514) 10%, rgba(34, 34, 136, 0.479) 80%);
+    background-image:linear-gradient(to bottom right, rgba(0, 0, 102, 0.514) 10%, rgba(34, 34, 136, 0.479) 80%);
     border-radius: 50px;
     box-shadow: 0px 0px 10px #48e;
     padding: 50px;
@@ -212,23 +212,17 @@ body {
     background-image:linear-gradient(rgba(3, 3, 65, 0.911) 10%, rgba(34, 34, 136, 0.897) 80%);
     border-radius: 50px;
     box-shadow: 0px 0px 10px #0ab;
+    cursor: pointer;
 }
 
 .experiencia-container {
     background: url(https://oecd-opsi.org/wp-content/uploads/2020/10/Cracking-the-code.jpg) no-repeat;
     background-size: cover;
+    background-repeat: repeat;
     margin-top  : 5px;
     border-radius: 50px;
-}
-
-.experiencia-container {
-    color: #d84;
-    text-shadow: 0px 0px 4px #f40;
     padding: 50px;
-    border-radius: 50px;
     box-shadow: 3px 3px 3px #006;
-    font-size: 1.4  em;
-    text-shadow: 2px 2px  #000;
 }
 
 .experiencia {
@@ -301,7 +295,7 @@ body {
 .estudios {
     text-shadow: 2px 2px  #000;
     padding: 80px;
-    background-image:linear-gradient(rgba(0, 0, 102, 0.514) 10%, rgba(34, 34, 136, 0.479) 80%);
+    background-image:linear-gradient(to bottom right,rgba(0, 0, 102, 0.514) 10%, rgba(34, 34, 136, 0.479) 80%);
     border-radius: 50px;
     color: #d84;    
     box-shadow: 0px 0px 10px #48e;
