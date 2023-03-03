@@ -49,14 +49,3 @@ botonBirthday.addEventListener("focusout", function() {
 
 
 
-// const menuResponsive = document.getElementById("boton-responsive");
-
-// menuResponsive.addEventListener("focusin", function() {
-//   console.log("asdsa");
-//   document.getElementById("menu__ul").style = "margin : 0px"
-// });
-
-// menuResponsive.addEventListener("focusout", function() {
-//   console.log("asasdasdasddsa");
-//   document.getElementById("menu__ul").style = "margin : -600px"
-// });
