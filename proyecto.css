@@ -409,7 +409,7 @@ border-radius: 50px;
 }
 
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 1200px) {
       
     body {
         width: 98%;
@@ -567,9 +567,6 @@ border-radius: 50px;
 
 
      .form {    
-        margin-top: 45px;
-        transform: scale(75%);   
-        position: absolute;
         left: 0;
     }
 
@@ -577,7 +574,6 @@ border-radius: 50px;
 
     .form-img {
         scale: 0.6;
-        margin-top: 320px;
     }
 
 }
