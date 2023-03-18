@@ -263,6 +263,10 @@ body {
     font-size: 4.5em;
 }
 
+.experiencia-content {
+    display: flex;
+}
+
 
 .experiencia h3 {
     text-align: center;
