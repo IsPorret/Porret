@@ -17,8 +17,8 @@ function agregarEventoBoton(botonId, detalle) {
 const botones = [
   { id: "boton-name", detalle: "Agustin Berretta" },
   { id: "boton-email", detalle: "agustinberrett@gmail.com" },
-  { id: "boton-number", detalle: "15 - 5455 1515" },
-  { id: "boton-birthday", detalle: "13/03 (1992)" },
+  { id: "boton-number", detalle: "11 - 5150 9831" },
+  { id: "boton-birthday", detalle: "13/03 " },
 ];
 
 for (let boton of botones) {
